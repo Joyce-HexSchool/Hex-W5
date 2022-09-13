@@ -1,10 +1,83 @@
----
-title: 切版直播班 W5 -  Boostrap Admin
-layout: ./app/layout.ejs
-engine: ejs
-current: admin
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    切版直播班 W5 -  Boostrap Admin
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <!-- google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <aside class="vh-100 d-flex flex-column bg-light" style="width: 296px;">
+      <!-- logo -->
+      <h2><a class="logo m-8" style="width: 153px; height: 42px;" href="./index.html">ANSWER logo</a></h2>
+      <!-- nav -->
+      <nav>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-4">
+            <a class="nav-link border-start border-light border-4" href="#"><span
+                class="material-symbols-outlined me-4">
+                insert_chart
+              </span>Dashboard</a>
+          </li>
+          <li class="nav-item mb-4">
+            <a class="nav-link border-start border-light border-4" href="#"><span
+                class="material-symbols-outlined me-4">
+                forum
+              </span>Question</a>
+          </li>
+          <li class="nav-item mb-4">
+            <a class="nav-link border-start border-light border-4 " aria-current="index" href="./index.html"><span
+                class="material-symbols-outlined me-4">
+                assignment
+              </span>Assignment</a>
+          </li>
+          <li class="nav-item mb-4">
+            <a class="nav-link border-start border-light border-4" href="#"><span
+                class="material-symbols-outlined me-4">
+                video_library
+              </span>Course</a>
+          </li>
+          <li class="nav-item mb-4">
+            <a class="nav-link border-start border-light border-4 active" aria-current="admin" href="./admin.html"><span
+                class="material-symbols-outlined me-4">
+                group
+              </span>Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link border-start border-light border-4" href="#"><span
+                class="material-symbols-outlined me-4">
+                settings
+              </span>Settings</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- 左下聯絡資訊 -->
+      <div class="card bg-light border-0 m-8 mt-auto">
+        <div class="d-flex align-items-center">
+          <div class="me-4">
+            <img class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover;"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
+              alt="Andy Chen photo">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title h6 fw-bold mb-1">Andy Chen</h3>
+            <a class="card-text small text-muted" href="mailto:andy0401@mail.com">andy0401@mail.com</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    
 <div class="container-fluid">
     <!-- header -->
     <header class="d-flex align-items-center py-8">
@@ -420,3 +493,10 @@ current: admin
         </nav>
     </footer>
 </div>
+  </div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
